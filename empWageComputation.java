@@ -1,5 +1,5 @@
+//This is Class refactorization code
 
-//This is Employee 100 hours and 20 days limit
 
 public class empTotalWage
 {
@@ -40,4 +40,5 @@ public static void main(String[ ] args)
 	}
 }
 
-//This end of limit to 100 hours file 
+
+///This is end of Class refactorization code
