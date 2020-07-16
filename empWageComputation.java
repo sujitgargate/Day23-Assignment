@@ -1,13 +1,26 @@
+<<<<<<< HEAD
 //This is Employee Daily Wage
 public class EmpDailyWage{
 //This is Part_Full time  //
+=======
+>>>>>>> empUsingSwitchCase
 
-public class EmpPartFullTime{
+//This is EmpSwitchCase
+
+public class EmpSwitchCase{
+
+	 //Constants
+         public static final int IS_FULL_TIME=1;
+         public static final int IS_PART_TIME=2;
+         public static final int EMP_RATE_PER_HOUR=20;
 
 	public static void main(String args[]){
+<<<<<<< HEAD
 		//Constants
 		int IS_FULL_TIME=1;
 		int EMP_RATE_PER_HOUR=20;
+=======
+>>>>>>> empUsingSwitchCase
 		//Variables
 		int empHrs=0;
 		int empWage=0;
@@ -17,14 +30,17 @@ public class EmpPartFullTime{
 			empHrs=8;
 		}else{
 		double empCheck=Math.floor(Math.random()*10)%3;
-		if(empCheck==IS_FULL_TIME){
+		switch ((int)empCheck){
+		
+		case IS_FULL_TIME:
 			empHrs=8;
+			break;
 
-		}else if(empCheck==IS_PART_TIME){
+		case IS_PART_TIME:
                         empHrs=4;
-                }
+			 break;
 
-		else{
+		default:
 			empHrs=0;
 		}
 		empWage=EMP_RATE_PER_HOUR*empHrs;
@@ -32,5 +48,9 @@ public class EmpPartFullTime{
 	}
 }
 
+<<<<<<< HEAD
 //This is Employee daily wage end
 //This is end of Part_Full time  //
+=======
+//This is end of EmpSwitchCase
+>>>>>>> empUsingSwitchCase
