@@ -1,4 +1,4 @@
-//This is Total Employee Wage For Each Company
+//This is Employee Wage For Muiltiple Company Company
 
 public class totalEmpWageEachCompany
 {
@@ -55,4 +55,4 @@ public class totalEmpWageEachCompany
                 }
 }
 
-//This is end of Total Employee Wage For Each Company
+//This is end of Employee Wage For Muiltiple Company Company
