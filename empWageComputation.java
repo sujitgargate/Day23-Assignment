@@ -1,8 +1,11 @@
+<<<<<<< HEAD
 //This is Employee Daily Wage
 public class EmpDailyWage{
 //This is Part_Full time  //
+=======
+//This is Class refactorization code
+>>>>>>> codeRefactorization
 
-//This is Employee 100 hours and 20 days limit
 
 public class empTotalWage
 {
@@ -70,3 +73,8 @@ public static void main(String[ ] args)
 	}
 }
 
+<<<<<<< HEAD
+=======
+
+///This is end of Class refactorization code
+>>>>>>> codeRefactorization
