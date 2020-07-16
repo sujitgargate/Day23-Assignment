@@ -1,11 +1,17 @@
-//This is Hello Message Printing 
+//This is EmpPresentAbsent //
 
-public class HelloMessage{
+public class EmpPresentAbsent{
 
 	public static void main(String args[]){
-		System.out.println("Hello message");
+	int IS_FULL_TIME=1;
+	double empCheck=Math.floor(Math.random()*10)%2;
+	if(empCheck==IS_FULL_TIME){
+		System.out.println("Employee is present ");
+		
+	}else{
+		System.out.println("Employee is absent ");
+	}
 	}
 }
 
-//End of Hello Message//
-
+//This is end of FIle EmpPresentAbsent //
